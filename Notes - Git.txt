@@ -4,7 +4,7 @@ git config --global user.email "gabriel.regus@gmail.com"
 
 Step 2: Initialize Git
 git init
-
+(you could see the files by typing ls-la)
 Step 3: Staging Files
 git add filename
 #git add --all
@@ -14,16 +14,8 @@ git add filename
 Step 4: Committing changes to staging area
 git commit -m "First Commit"
 
-
-
-
-git remote remove NAME
-git rename OLD NEWNAME
-fit remote -v
-
-
 pushing from your local machine to github
-git push REMOTE BRANCH
+
 # git push  --upstream-to origin main
 
 git push -u origin main # --set-upstream
@@ -33,3 +25,15 @@ git push -u origin main # --set-upstream
 
 git@github.com:ColumbiaCoding/Bootcamp.git
 
+##Syncing github with local hard drive
+
+Clone
+(Gitlab) git clone git@git.bootcampcontent.com:Columbia-University/CU-VIRT-FSF-PT-03-2023-U-LOLC.git
+
+Fetch - take from the repo and sync to your local drive
+
+Pull is a combination 
+
+#Search for branches
+git branch
+git branch -a
