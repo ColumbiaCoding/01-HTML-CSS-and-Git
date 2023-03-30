@@ -1,0 +1,35 @@
+Step 1: Configuration variables
+git config --global user.name "Gabriel Regus"
+git config --global user.email "gabriel.regus@gmail.com"
+
+Step 2: Initialize Git
+git init
+
+Step 3: Staging Files
+git add filename
+#git add --all
+#git add -A
+#git add .
+
+Step 4: Committing changes to staging area
+git commit -m "First Commit"
+
+
+
+
+git remote remove NAME
+git rename OLD NEWNAME
+fit remote -v
+
+
+pushing from your local machine to github
+git push REMOTE BRANCH
+# git push  --upstream-to origin main
+
+git push -u origin main # --set-upstream
+# git push --all
+# git branch --set-upstream-to <origin/remote-branch>
+
+
+git@github.com:ColumbiaCoding/Bootcamp.git
+
