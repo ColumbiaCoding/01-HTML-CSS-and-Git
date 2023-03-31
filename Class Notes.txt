@@ -68,5 +68,6 @@ git push origin main
 
 https://github.com/ColumbiaCoding/Columbia_Coding_Bootcamp.git
 
+each challenge should have it's own repoa
 
 
